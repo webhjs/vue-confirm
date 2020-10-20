@@ -5,7 +5,7 @@
       <div class="content">
         <span class="cont_wrap">
           <div class="tootip">
-            {{ tootip }}
+            <span>{{ tootip }}</span>
           </div>
           <div v-if="type !== 'info'" class="operate">
             <span class="cancel" @click="cancel">取消</span>
@@ -80,6 +80,7 @@ export default {
                     font-weight: 400;
                     color: #36363A;
                     line-height: 37px;
+                    white-space: pre-wrap;
                 }
                 .operate{
                     margin-top: 70px;
