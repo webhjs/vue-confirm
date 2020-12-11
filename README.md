@@ -22,3 +22,4 @@ this.$s_confirm('你好').then(() => {
 })
 this.$s_confirm.info('你好')
 ```
+![sketch](sketch.png)
